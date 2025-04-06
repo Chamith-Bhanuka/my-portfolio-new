@@ -9,12 +9,12 @@ body {
 .hero-section {
     width: 100%;
     height: 100vh;
-    text-align: center;
+    text-align: left;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    font-size: 1rem;
     font-family: Arial, sans-serif;
     position: relative;
     z-index: 1;
@@ -51,4 +51,22 @@ body {
     100% {
         background-position: 0 50%;
     }
+}
+
+.hero-left {
+    background-color: transparent;
+    padding-top: 160px;
+    padding-left: 50px;
+    width: 60%;
+}
+
+.hero-right {
+    background-color: transparent;
+    width: 40%;
+}
+
+#hero {
+    width: 600px;
+    padding-left: 120px;
+    flex-direction: row;
 }
