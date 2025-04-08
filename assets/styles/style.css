@@ -126,3 +126,23 @@ header ul li a::before {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
+.dark-light-btn {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.dark-light-btn:hover, header ul li a:hover {
+    color: var(--main-color);
+}
