@@ -146,3 +146,106 @@ header ul li a::before {
 .dark-light-btn:hover, header ul li a:hover {
     color: var(--main-color);
 }
+
+.profile-container {
+    height: 100%;
+    position: relative;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px 0 30px 30px;
+}
+
+.user-profile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+}
+
+.user-profile-img {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    border-radius: 30px 0 30px 30px;
+    background-color: var(--text-color);
+    overflow: hidden;
+}
+
+.user-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user-profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.user-profile-text span{
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+}
+
+.user-profile-text h1 {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.profile-social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.profile-social-container a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: var(--text-color);
+    transition: all ease 0.3s;
+}
+
+.profile-social-container a:hover, .user-profile-buttons a:hover {
+    color: var(--main-color);
+}
+
+.user-profile-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70px;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.user-profile-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: all ease 0.3s;
+}
+
+.user-profile-buttons a:first-child {
+    border-right: 1px solid var(--border-color);
+}
