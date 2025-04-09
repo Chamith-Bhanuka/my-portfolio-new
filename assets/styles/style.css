@@ -387,3 +387,8 @@ header ul li a::before {
     color: var(--main-color);
     font-size: 2rem;
 }
+
+.skill-box-content span {
+    color: var(--text-color);
+    font-weight: 500;
+}
