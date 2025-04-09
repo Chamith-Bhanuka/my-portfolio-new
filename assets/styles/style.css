@@ -424,3 +424,10 @@ header ul li a::before {
     top: 0;
     border-radius: 30px;
 }
+
+.service-message {
+    color: var(--text-color);
+    text-align: center;
+    margin: 35px 0 20px 0;
+}
+
