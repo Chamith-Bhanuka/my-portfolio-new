@@ -330,3 +330,10 @@ header ul li a::before {
     font-size: 3.4rem;
     font-weight: 400;
 }
+
+.project-container-box strong {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    max-width: 100px;
+}
