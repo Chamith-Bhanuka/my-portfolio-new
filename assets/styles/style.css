@@ -249,3 +249,11 @@ header ul li a::before {
 .user-profile-buttons a:first-child {
     border-right: 1px solid var(--border-color);
 }
+
+.all-content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    width: 100%;
+    overflow: hidden;
+}
