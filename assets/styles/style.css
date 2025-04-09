@@ -250,6 +250,13 @@ header ul li a::before {
     border-right: 1px solid var(--border-color);
 }
 
+.section-container {
+    background: linear-gradient(120deg, var(--gradient-start), var(--gradient-end)) !important;
+    padding: 45px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 .all-content {
     display: flex;
     flex-direction: column;
