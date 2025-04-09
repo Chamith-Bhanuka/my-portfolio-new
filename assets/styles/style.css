@@ -324,3 +324,9 @@ header ul li a::before {
     align-items: center;
     grid-gap: 20px;
 }
+
+.project-container-box span {
+    color: var(--text-color);
+    font-size: 3.4rem;
+    font-weight: 400;
+}
