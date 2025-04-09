@@ -318,3 +318,9 @@ header ul li a::before {
     grid-gap: 40px;
     margin-top: 30px;
 }
+
+.project-container-box {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
