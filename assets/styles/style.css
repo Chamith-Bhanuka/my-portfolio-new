@@ -374,6 +374,7 @@ header ul li a::before {
     border: 1px solid var(--border-color);
     padding: 30px;
     border-radius: 10px;
+    position: relative;
 }
 
 .skill-box-content {
@@ -391,4 +392,16 @@ header ul li a::before {
 .skill-box-content span {
     color: var(--text-color);
     font-weight: 500;
+}
+
+.skill-box-percentage {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 10px;
 }
