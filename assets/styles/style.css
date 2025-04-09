@@ -279,3 +279,13 @@ header ul li a::before {
 #about-me h3 span {
     color: var(--main-color);
 }
+
+#about-me #role {
+    opacity: 1;
+    white-space: nowrap;
+    transition: opacity 0.5s ease-out;
+    border-right: 2px solid var(--main-color);
+    display: inline-block;
+    padding-right: 5px;
+
+}
