@@ -369,3 +369,9 @@ header ul li a::before {
     margin-top: 40px;
     width: 100%;
 }
+
+.skill-box {
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    border-radius: 10px;
+}
