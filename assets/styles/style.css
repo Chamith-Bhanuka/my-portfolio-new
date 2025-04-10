@@ -507,4 +507,11 @@ header ul li a::before {
     align-items: flex-start;
 }
 
+.project-box-text strong {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
 
