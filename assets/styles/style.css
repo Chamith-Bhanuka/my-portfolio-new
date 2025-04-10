@@ -693,3 +693,20 @@ header ul li a::before {
     object-fit: cover;
     object-position: center;
 }
+
+.client-profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-profile-text strong {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.client-profile-text span {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
