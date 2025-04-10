@@ -577,3 +577,14 @@ header ul li a::before {
     margin-top: 10px;
 }
 
+.edu-work-box {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    background-color: var(--bg-color);
+    position: relative;
+    border: 1px solid var(--border-color);
+}
+
