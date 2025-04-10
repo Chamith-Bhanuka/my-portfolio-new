@@ -654,3 +654,10 @@ header ul li a::before {
     border-radius: 20px;
     border: 1px solid var(--border-color);
 }
+
+.testimonial-reviews {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 4px;
+}
