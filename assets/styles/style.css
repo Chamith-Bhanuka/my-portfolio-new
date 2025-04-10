@@ -458,4 +458,10 @@ header ul li a::before {
     user-select: none;
 }
 
+.project-list li.active {
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
 
