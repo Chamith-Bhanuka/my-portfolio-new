@@ -613,3 +613,8 @@ header ul li a::before {
     opacity: 0.6;
 }
 
+.edu-work-box .edu-work-year {
+    color: var(--main-color);
+    font-size: 0.9rem;
+}
+
