@@ -525,4 +525,15 @@ header ul li a::before {
     padding: 5px 15px;
 }
 
+.project-box-btn {
+    color: var(--text-color);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+}
+
 
