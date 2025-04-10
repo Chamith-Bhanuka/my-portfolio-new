@@ -645,3 +645,12 @@ header ul li a::before {
     margin-top: 50px;
     overflow: hidden;
 }
+
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+}
