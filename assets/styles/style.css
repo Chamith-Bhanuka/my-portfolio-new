@@ -601,3 +601,15 @@ header ul li a::before {
     background-color: var(--border-color);
 }
 
+.edu-work-box::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0.6;
+}
+
