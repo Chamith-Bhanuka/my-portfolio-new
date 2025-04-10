@@ -552,7 +552,7 @@ header ul li a::before {
 .edu-work-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 
