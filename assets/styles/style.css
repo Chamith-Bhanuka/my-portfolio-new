@@ -666,3 +666,9 @@ header ul li a::before {
     color: var(--main-color);
     font-size: 0.8rem;
 }
+
+.testimonial-reviews p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
