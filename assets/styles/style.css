@@ -661,3 +661,8 @@ header ul li a::before {
     align-items: center;
     grid-gap: 4px;
 }
+
+.testimonial-reviews i {
+    color: var(--main-color);
+    font-size: 0.8rem;
+}
