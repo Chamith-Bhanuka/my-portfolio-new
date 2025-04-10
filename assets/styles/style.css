@@ -624,4 +624,8 @@ header ul li a::before {
     font-weight: 500;
 }
 
-
+.edu-work-location {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    opacity: 0.6;
+}
