@@ -635,3 +635,13 @@ header ul li a::before {
     font-size: 0.8rem;
     margin-top: 10px;
 }
+
+/*testimonials*/
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
