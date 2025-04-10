@@ -436,3 +436,13 @@ header ul li a::before {
     text-decoration: underline;
 }
 
+.project-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 0 0 0;
+}
+
+
