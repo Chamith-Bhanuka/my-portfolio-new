@@ -500,4 +500,11 @@ header ul li a::before {
     align-items: center;
 }
 
+.project-box-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
