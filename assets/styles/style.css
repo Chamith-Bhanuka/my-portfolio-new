@@ -471,4 +471,12 @@ header ul li a::before {
     margin-top: 30px;
 }
 
+.project-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
 
