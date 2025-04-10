@@ -672,3 +672,10 @@ header ul li a::before {
     font-size: 0.9rem;
     margin: 15px 0;
 }
+
+.client-profile {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
