@@ -445,4 +445,17 @@ header ul li a::before {
     margin: 50px 0 0 0;
 }
 
+.project-list li {
+    color: var(--text-color);
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
 
