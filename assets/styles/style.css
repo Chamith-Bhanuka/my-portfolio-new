@@ -590,3 +590,14 @@ header ul li a::before {
     border: 1px solid var(--border-color);
 }
 
+.edu-work-box-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: calc(100% - 50px);
+    background-color: var(--border-color);
+}
+
