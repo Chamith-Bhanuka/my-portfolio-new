@@ -686,3 +686,10 @@ header ul li a::before {
     border-radius: 50%;
     overflow: hidden;
 }
+
+.client-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
