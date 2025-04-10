@@ -629,3 +629,9 @@ header ul li a::before {
     color: var(--text-color);
     opacity: 0.6;
 }
+
+.edu-work-box p {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
