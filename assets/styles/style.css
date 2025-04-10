@@ -697,7 +697,7 @@ header ul li a::before {
 .client-profile-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .client-profile-text strong {
