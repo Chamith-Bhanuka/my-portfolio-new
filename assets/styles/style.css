@@ -464,4 +464,11 @@ header ul li a::before {
     color: var(--bg-color);
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
 
