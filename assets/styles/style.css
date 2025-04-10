@@ -523,6 +523,7 @@ header ul li a::before {
     letter-spacing: 1px;
     font-weight: 500;
     padding: 5px 15px;
+    transition: all ease 0.3s;
 }
 
 .project-box-btn {
@@ -535,5 +536,12 @@ header ul li a::before {
     background-color: var(--bg-color);
     border-radius: 50%;
 }
+
+.project-box:hover .project-box-text span {
+    color: var(--bg-color);
+    background: var(--main-color);
+    border: none;
+}
+
 
 
