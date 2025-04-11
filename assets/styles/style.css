@@ -866,3 +866,7 @@ header ul li a::before {
         grid-column: 1/2;
     }
 }
+
+@media (max-width: 520px) {
+
+}
