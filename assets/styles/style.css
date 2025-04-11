@@ -912,7 +912,8 @@ header ul li a::before {
     .project-box-img {
         height: 250px;
     }
-    .client-logos {
+    .client-logos,
+    .contact-box {
         flex-wrap: wrap;
         grid-gap: 15px;
     }
