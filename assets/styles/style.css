@@ -736,3 +736,8 @@ header ul li a::before {
     flex-wrap: wrap;
 }
 
+.client-logos img {
+    height: 55px;
+    object-fit: contain;
+    object-position: center;
+}
