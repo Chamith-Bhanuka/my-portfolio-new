@@ -761,3 +761,11 @@ header ul li a::before {
     justify-content: space-between;
     align-items: center;
 }
+
+.contact-box-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 10px;
+}
+
