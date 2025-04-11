@@ -896,4 +896,7 @@ header ul li a::before {
     #about-me h1 span {
         font-size: 2rem;
     }
+    .project-container-about {
+        grid-gap: 15px;
+    }
 }
