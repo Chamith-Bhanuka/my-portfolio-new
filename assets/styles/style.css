@@ -769,3 +769,7 @@ header ul li a::before {
     grid-gap: 10px;
 }
 
+.contact-box-icon i {
+    color: var(--main-color);
+    font-size: 1.6rem;
+}
