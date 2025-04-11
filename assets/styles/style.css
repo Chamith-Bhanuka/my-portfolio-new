@@ -877,4 +877,7 @@ header ul li a::before {
     .user-profile-img {
         min-height: auto;
     }
+    .user-profile-container {
+        padding: 30px;
+    }
 }
