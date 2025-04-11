@@ -808,3 +808,10 @@ header ul li a::before {
     object-fit: cover;
     object-position: center;
 }
+
+/*making responsive*/
+@media (max-width: 1170px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+}
