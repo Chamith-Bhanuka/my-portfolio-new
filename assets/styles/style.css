@@ -871,4 +871,7 @@ header ul li a::before {
     .main-container {
         margin: 20px auto;
     }
+    .project-container-about {
+        grid-template-columns: 1fr;
+    }
 }
