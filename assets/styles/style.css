@@ -746,3 +746,9 @@ header ul li a::before {
     border-radius: 0 0 30px 30px;
 }
 
+.contact-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    grid-gap: 20px;
+}
