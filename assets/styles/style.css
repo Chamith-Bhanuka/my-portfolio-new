@@ -786,3 +786,7 @@ header ul li a::before {
     font-size: 0.9rem;
     text-transform: uppercase;
 }
+
+.contact-box-location {
+    grid-column: 1/3;
+}
