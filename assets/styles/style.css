@@ -856,4 +856,10 @@ header ul li a::before {
     .project-container-about {
         grid-template-columns: 1fr 1fr;
     }
+    .skill-box-container,
+    .project-container,
+    .edu-work-container,
+    .contact-box-container{
+        grid-template-columns: 1fr;
+    }
 }
