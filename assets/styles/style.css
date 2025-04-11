@@ -899,4 +899,8 @@ header ul li a::before {
     .project-container-about {
         grid-gap: 15px;
     }
+    .project-container-box {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    }
 }
