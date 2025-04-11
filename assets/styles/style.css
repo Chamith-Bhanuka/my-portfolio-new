@@ -721,3 +721,8 @@ header ul li a::before {
     color: var(--text-color);
     font-size: 0.9rem;
 }
+
+.testimonial-message span {
+    color: var(--main-color);
+}
+
