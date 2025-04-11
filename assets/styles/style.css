@@ -839,4 +839,9 @@ header ul li a::before {
         padding: 5px;
         box-shadow: 2px 2px 30px rgba(235, 235, 235, 0.12);
     }
+
+    header nav ul li a::after,
+    header nav ul li a::before {
+        display: none;
+    }
 }
