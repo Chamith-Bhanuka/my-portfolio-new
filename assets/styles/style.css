@@ -853,5 +853,7 @@ header ul li a::before {
 }
 
 @media (max-width: 790px) {
-
+    .project-container-about {
+        grid-template-columns: 1fr 1fr;
+    }
 }
