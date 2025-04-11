@@ -892,4 +892,8 @@ header ul li a::before {
     #about-me h3 span{
         min-height: 34px;
     }
+    #about-me h1,
+    #about-me h1 span {
+        font-size: 2.8rem;
+    }
 }
