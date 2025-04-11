@@ -814,4 +814,7 @@ header ul li a::before {
     .main-container {
         grid-template-columns: 1fr;
     }
+    .menu-profile {
+        position: static;
+    }
 }
