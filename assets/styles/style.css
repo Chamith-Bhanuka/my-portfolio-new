@@ -884,4 +884,9 @@ header ul li a::before {
     #about-me {
         padding: 30px 20px;
     }
+    #about-me h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
