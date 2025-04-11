@@ -862,4 +862,7 @@ header ul li a::before {
     .contact-box-container{
         grid-template-columns: 1fr;
     }
+    .contact-box-location {
+        grid-column: 1/2;
+    }
 }
