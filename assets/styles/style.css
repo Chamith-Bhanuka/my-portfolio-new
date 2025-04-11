@@ -790,3 +790,13 @@ header ul li a::before {
 .contact-box-location {
     grid-column: 1/3;
 }
+
+.contact-map {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    margin-top: 30px;
+    filter: grayscale(0.2);
+}
