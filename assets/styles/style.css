@@ -909,4 +909,7 @@ header ul li a::before {
     .section-heading {
         font-size: 1.6rem;
     }
+    .project-box-img {
+        height: 250px;
+    }
 }
