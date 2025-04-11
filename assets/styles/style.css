@@ -817,4 +817,7 @@ header ul li a::before {
     .menu-profile {
         position: static;
     }
+    .menu-profile-img {
+        min-height: 500px;
+    }
 }
