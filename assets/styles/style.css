@@ -828,5 +828,15 @@ header ul li a::before {
         grid-template-columns: 60px 1fr;
         grid-gap: 10px;
         align-items: baseline;
+        max-width: 600px;
+        margin: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 5px;
+        box-shadow: 2px 2px 30px rgba(235, 235, 235, 0.12);
     }
 }
