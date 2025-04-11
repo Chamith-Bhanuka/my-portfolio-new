@@ -726,3 +726,13 @@ header ul li a::before {
     color: var(--main-color);
 }
 
+.client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    margin: 15px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
