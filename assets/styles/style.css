@@ -906,4 +906,7 @@ header ul li a::before {
     .project-container-box span {
         font-size: 2.8rem;
     }
+    .section-heading {
+        font-size: 1.6rem;
+    }
 }
