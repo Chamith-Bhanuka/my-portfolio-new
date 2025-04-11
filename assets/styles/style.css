@@ -851,3 +851,7 @@ header ul li a::before {
         box-shadow: 2px 2px 30px var(--border-color);
     }
 }
+
+@media (max-width: 790px) {
+
+}
