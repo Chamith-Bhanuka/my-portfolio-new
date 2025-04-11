@@ -916,4 +916,8 @@ header ul li a::before {
         flex-wrap: wrap;
         grid-gap: 15px;
     }
+    .client-logos img {
+        width: auto;
+        height: 35px;
+    }
 }
