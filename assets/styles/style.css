@@ -51,7 +51,7 @@ body {
     grid-template-columns: 65px 1fr;
     grid-gap: 10px;
     position: sticky; /*newly added*/
-    top: 10px;
+    top: 40px;
 }
 
 header {
