@@ -868,5 +868,7 @@ header ul li a::before {
 }
 
 @media (max-width: 520px) {
-
+    .main-container {
+        margin: 20px auto;
+    }
 }
