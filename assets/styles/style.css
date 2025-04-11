@@ -711,3 +711,13 @@ header ul li a::before {
     opacity: 0.6;
     font-size: 0.8rem;
 }
+
+.testimonial-message {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: var(--border-color);
+    margin: 70px auto 30px auto;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
