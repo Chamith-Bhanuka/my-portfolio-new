@@ -741,3 +741,8 @@ header ul li a::before {
     object-fit: contain;
     object-position: center;
 }
+
+#contact {
+    border-radius: 0 0 30px 30px;
+}
+
