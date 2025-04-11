@@ -880,4 +880,8 @@ header ul li a::before {
     .user-profile-container {
         padding: 30px;
     }
+    .section-container,
+    #about-me {
+        padding: 30px 20px;
+    }
 }
