@@ -874,4 +874,7 @@ header ul li a::before {
     .project-container-about {
         grid-template-columns: 1fr;
     }
+    .user-profile-img {
+        min-height: auto;
+    }
 }
