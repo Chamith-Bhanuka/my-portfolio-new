@@ -820,4 +820,13 @@ header ul li a::before {
     .menu-profile-img {
         min-height: 500px;
     }
+    .menu-profile {
+        grid-template-columns: 1fr;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-gap: 10px;
+        align-items: baseline;
+    }
 }
