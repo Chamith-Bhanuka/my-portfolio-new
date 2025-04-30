@@ -852,7 +852,7 @@ header ul li a::before {
     }
 }
 
-@media (max-width: 768px) { /*790*/
+@media (max-width: 790px) { /*790*/
     .project-container-about {
         grid-template-columns: 1fr 1fr;
     }
@@ -867,7 +867,7 @@ header ul li a::before {
     }
 }
 
-@media (max-width: 520px) {  /*425*/
+@media (max-width: 425px) {  /*425*/
     .main-container {
         margin: 20px auto;
     }
