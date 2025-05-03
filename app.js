@@ -81,6 +81,10 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('mode', isLightMode ? 'light' : 'dark');
         });
     }
+
+
+    //active section color change
+    const section = document.querySelectorAll('section');
 });
 
 
