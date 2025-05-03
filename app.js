@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
        //update the button icon
        const isLightMode = htmlElement.classList.contains('light-mode');
        toggleButton.innerHTML = isLightMode ? '<i class="fa-regular fa-moon"></i>' : '<i class="fa-regular fa-sun">';
+
+       //save mode in local storage
+       localStorage.setItem("mode", isLightMode ? "light" : "dark");
    });
 
 });
