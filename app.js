@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //active section color change
     const section = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('ul li a');
 });
 
 
