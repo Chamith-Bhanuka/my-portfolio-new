@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
    const toggleButton = document.querySelector('.dark-light-btn');
-
+   const htmlElement = document.documentElement;
 });
 
