@@ -60,5 +60,14 @@ document.addEventListener('DOMContentLoaded', function () {
        htmlElement.classList.add('light-mode');
        toggleButton.innerHTML = '<i class="fa-regular fa-moon"></i>';
    }
+
+   toggleButton.addEventListener('click', () => {
+       htmlElement.classList.remove('light-mode');
+
+       //update the button icon
+       const isLightMode = htmlElement.classList.contains('light-mode');
+       toggleButton.innerHTML = isLightMode ? '<i class="fa-regular fa-moon"></i>' : '<i class="fa-regular fa-sun">';
+   });
+
 });
 
