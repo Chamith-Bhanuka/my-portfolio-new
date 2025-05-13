@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const roles = ["Web Developer", "Software Engineer", "Embedded System Engineer"];
+    const roles = ["Web Developer", "Software Engineer", "IOT Developer"];
     const roleElement = document.getElementById("role");
     let roleIndex = 0;
     let letterIndex = 0;
