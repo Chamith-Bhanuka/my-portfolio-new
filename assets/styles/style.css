@@ -840,6 +840,12 @@ header ul li a.active {
     flex-direction: column;
 }
 
+.service-box-heading {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
