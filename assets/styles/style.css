@@ -938,7 +938,8 @@ header ul li a.active {
     .skill-box-container,
     .project-container,
     .edu-work-container,
-    .contact-box-container{
+    .contact-box-container,
+    .service-container{
         grid-template-columns: 1fr;
     }
     .contact-box-location {
