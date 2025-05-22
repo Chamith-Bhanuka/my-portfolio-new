@@ -863,6 +863,12 @@ header ul li a.active {
     flex-direction: column;
 }
 
+.service-box-heading-text span {
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
