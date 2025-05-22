@@ -832,6 +832,14 @@ header ul li a.active {
     margin-top: 40px;
 }
 
+.service-box {
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
