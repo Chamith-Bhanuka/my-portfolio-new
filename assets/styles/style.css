@@ -851,6 +851,13 @@ header ul li a.active {
     display: flex;
 }
 
+.service-box-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
