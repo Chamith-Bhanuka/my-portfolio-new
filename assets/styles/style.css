@@ -869,6 +869,11 @@ header ul li a.active {
     font-size: 0.8rem;
 }
 
+.service-box-heading-text strong {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
