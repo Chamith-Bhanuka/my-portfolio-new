@@ -846,6 +846,11 @@ header ul li a.active {
     grid-gap: 20px;
 }
 
+.service-box-icon {
+    width: 100%;
+    display: flex;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
