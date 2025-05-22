@@ -858,6 +858,11 @@ header ul li a.active {
     object-position: center;
 }
 
+.service-box-heading-text {
+    display: flex;
+    flex-direction: column;
+}
+
 /*making responsive*/
 @media (max-width: 1170px) { /*1170*/
     .main-container {
